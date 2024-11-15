@@ -36,7 +36,7 @@ count.update((n) => n + 1);
 
 ```svelte
 /// file: Counter.svelte
-<button onclick={() => +++$count += 1+++}>
+<button onclick={() => {+++$count += 1+++}>
 	clicks: {$count}
 </button>
 ```
